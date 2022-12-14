@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" class="css" type="text/css">
+    <title>QuizApp</title>
+</head>
+
+<body>
+    <header>
+        <h1>QuizApp</h1>
+    </header>
+    <main>
+        <section class="section-start">
+            <h2>クイズアプリ</h2>
+            <button id="start-btn" class="btn">START</button>
+        </section>
+        <div id="container">
+            <h2 id="question"></h2>
+            <ul id="choices">
+            </ul>
+            <button id="btn" class="btn disabled">次の問題へ</button>
+        </div>
+        <div id="answer-result" class="hidden">
+            <p></p>
+        </div>
+        <div id="result" class="hidden">
+            <p></p>
+            <a href="">やり直す</a>
+        </div>
+    </main>
+    <div id="mask" class="hide"></div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
